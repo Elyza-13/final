@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: auto;
+    background-color: #D76E6B;
+}
+
+#container {
+
+    text-align: justify;
+    color: #020102;
+    background: linear-gradient(90deg,
+            #D76E6B 50%,
+            #6E3332 100%);
+
+}
+
+
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    color: #D76E6B;
+    background-color: #020102;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    color: #D76E6B;
+    background-color: #020102;
+    font-size: 20px;
+}
+
+#carrossel{
+    background-color: #D76E6B;
+    max-width: 50%;
+
+    
+}
+
+.footer-arrow svg {
+    width:100%;
+    background-image: linear-gradient(180deg,#D76E6B ,#6E3332 );
+
+}
+
+.footer-arrow .shape-fill {
+    fill: #D76E6B;
+    
+}
+
+#box1 {
+    width: 100%;
+    background-color: #6E3332;
+}
+
+#colfooter{
+    border-style: dotted;
+    border-color: #FCEBC0;
+}
+#colfooter .titleFooter {
+    color: #FCEBC0;
+    text-align: center;
+}
+
+#colfooter p {
+    color: #FCEBC0;
+    text-align: center;
+}
+
+#colfooter .redesocial {
+    text-align: center;
+    color: #FCEBC0;
+    text-decoration: none;
+    width: 100%;
+    float: left;
+    transition: 0.2s;
+}
+
+#colfooter .redesocial:hover {
+
+    color: #D76E6B;
+    transition: 0.2s;
+}
+
+#box2 {
+    width: 100%;
+    background-color: #6E3332;
+    color: #FCEBC0;
+    
+}
+P { text-align: center }
+
+.by i {
+    margin-right: 2px;
+    color: #e82626;
+}
+

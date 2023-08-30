@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Black Sounds</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.png">
+    <script src="js/jquery.js"></script>
+    <script src="js/sweetalert2@11.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
+
+
+</head>
+
+<body>
+
+
+    <div id="header">
+        <div id="logo">
+            Black<span>Sounds</span>
+        </div>
+
+        <input type="checkbox" id="btt_menu">
+        <label for="btt_menu"> &#9776; </label>
+
+        <nav class="btn_social">
+
+            <ul>
+
+                <li><a href="#" target="_blank" title="facebook"><i class="icon icon-facebook"></i></a></li>
+                <li><a href="#" target="_blank" title="instagram"><i class="icon icon-instagram"></i></a></li>
+                <li><a href="#" target="_blank" title="youtube"><i class="icon icon-youtube"></i></a></li>
+                <li><a href="#" target="_blank" title="youtube"><i class="icon icon-whatsapp"></i></a></li>
+                <li><a href="#" target="_blank" title="linkdin"><i class="icon icon-linkedin"></i></a></li>
+
+
+            </ul>
+
+        </nav>
+
+        <div id="nav">
+
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li class="dropdown">
+                    <a href="#" class="drop_btt"> Indicações &#9660;</a>
+                    <div class="dropdown_content">
+                        <a href="novidade1.html">1</a>
+                        <a href="novidade2.html">2</a>
+                        <a href="novidade3.html">3</a>
+                    </div>
+                </li>
+
+                <li> <a href="homensRAP.html">Os manos do RAP</a> </li>
+                <li> <a href="mulheresRAP.html">As minas do RAP</a> </li>
+                <li> <a href="loja.html">Loja</a> </li>
+                <li> <a href="quiz.html">Quiz</a> </li>
+                <li> <a href="quemsomos.html">Quem somos</a> </li>
+
+
+            </ul>
+
+        </div>
+    </div>
+
+
+    <div id="carrossel" class="carousel slide carousel-fade"style="width: 90%; height:90%; margin: 0 auto">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1" aria-current="2"></button>
+            <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2" aria-current="3"></button>
+            <button type="button" data-bs-target="#carrossel" data-bs-slide-to="3" aria-current="4"></button>
+            <button type="button" data-bs-target="#carrossel" data-bs-slide-to="4" aria-current="5"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Noticia 1.jpg" class="d-block w-100">
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fábrica de Graffiti leva arte para o interior do Brasil</h5>
+                    <p>Desde 2019, a Fábrica de Graffiti viaja pelo interior do Brasil levando arte para comunidades de
+                        distritos industriais que têm menor acesso à fruição e formação artística.</p>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Noticia 2.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>IZA SURPREENDE MÚSICOS NA AVENIDA PAULISTA</h5>
+                    <p>A cantora, que também se apresenta no The Town 2023, se juntou com Trident para a campanha da
+                        marca que celebra o maior festival da cidade, tangibilizando o conceito "Destrave a cidade".</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Noticia 3.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>PROJE7O ARCO-ÍRIS APRESENTA EXPERIÊNCIAS TRANSFORMADORAS ATRAVÉS DA ARTE URBANA</h5>
+                    <p>Iniciativa contou com oficinas e workshops gratuitos de Graffiti para alunos de escolas públicas
+                        das cidades de São Paulo e São Bernardo do Campo</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Noticia 4.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>MANO BROWN ENCERRA TEMPORADA DE PODCAST NO SPOTIFY, COM A MINISTRA MARINA SILVA</h5>
+                    <p>No último episódio, o rapper recebe Marina Silva, ministra do Meio Ambiente e Mudança do Clima no
+                        Brasil, que conta sobre momentos marcantes de sua infância e seus movimentos no cenário político
+                        no país</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Noticia 5.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>AI-VAI LEVARÁ A CULTURA HIP HOP PARA A AVENIDA NO CARNAVAL DE 2024</h5>
+                    <p>A Escola de Samba Vai-Vai já definiu o enredo para o próximo carnaval, intitulado “Capítulo 4,
+                        Versículo 3 – Da Rua e do Povo, o Hip Hop: Um Manifesto Paulistano”, o enredo celebrará os 40
+                        anos da cultura Hip Hop no Brasil e destacará a importância das expressões artísticas e
+                        culturais periféricas.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Voltar</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Avançar</span>
+        </button>
+
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="row" id="container">
+            <h2>Eventos proximos</h2>
+
+            <div class="col" id="box">
+                <img src="img/image 12.jpeg" class="img-fluid" alt="Responsive image">
+                <h3>
+                    GPWEEK 2023 - 04 DE NOVEMBRO</h3>
+                <p>
+                    Data: 4 de novembro de 2023
+                    Local: Allianz Parque - Av. Francisco Matarazzo, 1705 – Água Branca, São Paulo – SP
+                </p>
+            </div>
+
+            <div class="col" id="box">
+                <img src="img/image13.jpeg" class="img-fluid" alt="Responsive image">
+                <h3>Sons da Rua</h3>
+                <p>
+                    Sábado, 14 de out., 02:00 – dom., 15 de out., 01:59
+                    Memorial da América Latina
+                </p>
+            </div>
+
+            <div class="col" id="box">
+                <img src="img/image15.jpeg" class="img-fluid" alt="Responsive image">
+                <h3>The Town </h3>
+                <p>
+                    The Town anuncia palco com MC Don Juan, Dricka, Teto e outros artistas de funk e rap
+                    2, 3, 7, 9 e 10 de setembro de 2023 no Autódromo de Interlagos, Zona Sul de São Paulo.
+                </p>
+            </div>
+
+            <div class="col" id="box">
+                <img src="img/image14.jpeg" class="img-fluid" alt="Responsive image">
+                <h3>ALT HOP 09|09</h3>
+                <p>
+                    sáb., 9 de set., 22:00 – dom., 10 de set., 06:00
+                    Em 21 Dias
+                    Casa da Luz - Espaço Cultural
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row" id="container">
+
+            <h2>Indicações da semana</h2>
+
+            <div class="col" id="box">
+                <iframe src="https://www.youtube.com/embed/fVQf1mMZIuc"
+                    title="Medida Provisória | Filme Exclusivo Globoplay" frameborder="5"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <h3>Medida Provisória </h3>
+                <p>
+                    Na obra futurística, o governo brasileiro decreta uma medida provisória em que as pessoas negras
+                    devem
+                    migrar para o continente africano, sob a justificativa de reparação histórica e retorno às origens.
+                </p>
+            </div>
+            <div class="col" id="box">
+                <iframe src="https://www.youtube.com/embed/IK1sEiHodZg"
+                    title="A Mulher Rei | Trailer Oficial | Em breve exclusivamente nos cinemas" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <h3>A Mulher Rei</h3>
+                <p>
+                    Estrelado por Viola Davis, esse filme que é cheio de ação e aventura, traz a história de Nanisca, a
+                    líder
+                    das guerreiras Agojie, um grupo de mulheres que defendem o rei e o reino de Daomé, que se encontra
+                    na
+                    Africa.</p>
+            </div>
+
+            <div class="col" id="box">
+                <iframe src="https://www.youtube.com/embed/pqTJPq3gJho"
+                    title="Olá, Adeus e Tudo Mais | Trailer oficial | Netflix" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+                <h3>Olá, Adeus e Tudo Mais</h3>
+                <p>
+                    Em Olá, Adeus e Tudo Mais, Aidan e Claire fazem um pacto de relacionamento no qual afirmam que irão
+                    terminar o namoro antes da faculdade. Porém, na última noite como casal, eles entram em conflitos
+                    questionando se o amor do ensino médio deve durar a eternidade.</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="footer-arrow">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <footer class="container-fluid" >
+
+        <div class="row" id="box1">
+
+
+            <div class="col" id="colfooter">
+
+                <h4 class="titleFooter">Contato</h4>
+                <p><i class="icon icon-mail"></i> contato@BlackSounds.com.br</p>
+                <p><i class="icon icon-phone"></i> 11 97070-5050</p>
+                <p><i class="icon icon-whatsapp"></i> 11 94466-3355</p>
+
+            </div>
+
+            <div class="col" id="colfooter">
+
+                <h4 class="titleFooter"> Redes Sociais</h4>
+
+                <a href="#" class="redesocial"><span> <i class="icon icon-facebook"></i>/BlackSounds</span></a>
+                <a href="#" class="redesocial"><span> <i class="icon icon-instagram"></i>/BlackSounds</span></a>
+                <a href="#" class="redesocial"><span> <i class="icon icon-twitter"></i>/BlackSounds</span></a>
+                <a href="#" class="redesocial"><span> <i class="icon icon-pinterest"></i>/BlackSounds</span></a>
+
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+        <div class="row" id="box2">
+
+            <p> Kick - 2023, todos os direitos reservados.</p>
+            <p class="by"><i class="icon icon-heart-3"></i> Desenvolvido por: Maria Elyza A Silva</p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
